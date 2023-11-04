@@ -54,8 +54,6 @@ export default function App() {
       }
     }
   }, [opened]);
-
-  console.log(moves);
   
   useEffect(() => {
     if (matched.length === doublePokemon.length) {
